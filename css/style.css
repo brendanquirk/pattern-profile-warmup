@@ -5,28 +5,42 @@ body {
 }
 
 body {
-  background: #000;
+  background: #FF5719;
   position: relative;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 75;
 }
 
 .profile-link {
-  color: #019cdc;
+  color: white;
   font-size: 12px;
   display: block;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
 }
 
 .link-heading {
   display: block;
   font-size: 12px;
+  font-family: 'Playfair Display', serif;
 }
 
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: #06332a;
 }
 
 a:visited {
-  color: #f58428;
+  color: white;
 }
 
 .outer {
@@ -123,19 +137,21 @@ a:visited {
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #54FFDC;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #00B28F;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #06332A;
 }
 
 .details {
   color: white;
   font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  vertical-align: top;
   /* border: 1px solid red; */
 }
